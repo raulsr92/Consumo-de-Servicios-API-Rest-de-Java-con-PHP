@@ -71,8 +71,6 @@ a{
 /* ==================================================Navbar*/
 
 
-
-
 header, nav{
     background-color: #AB4459!important;
 }
@@ -230,4 +228,11 @@ h1{
 
 #carousel .overlay .container, #carousel .overlay .container .row{
     height: 100%;
+}
+
+/* ==================================================  Tabla Gestion de clientes */
+
+.cabecera{
+    background-color: #AB4459!important;
+    color: whitesmoke!important;
 }

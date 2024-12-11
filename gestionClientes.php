@@ -26,13 +26,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0 navbar-list">
             <li class="nav-item">
-              <a class="nav-link " aria-current="page" href="./index.html">Inicio</a>
+              <a class="nav-link " aria-current="page" href="./index.php">Inicio</a>
             </li>
             <li class="nav-item">
               <a class="nav-link " aria-current="page" href="#">Nosotros</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link " aria-current="page" href="./gestionClientes.html">Clientes</a>
+              <a class="nav-link " aria-current="page" href="./gestionClientes.php">Clientes</a>
             </li>
             <li class="nav-item">
               <a class="nav-link " aria-current="page" href="#">Proveedores</a>
@@ -109,14 +109,14 @@
         <table class="table text-center movie--list  table-borderless table-striped main--table">
           <thead>
             <tr>
-              <th scope="col">Código</th>
-              <th scope="col">Nombre</th>
-              <th scope="col">Apellido Paterno</th>
-              <th scope="col">Apellido Materno</th>
-              <th scope="col">DNI</th>
+              <th class="cabecera" scope="col">Código</th>
+              <th class="cabecera" scope="col">Nombre</th>
+              <th class="cabecera" scope="col">Apellido Paterno</th>
+              <th class="cabecera" scope="col">Apellido Materno</th>
+              <th class="cabecera" scope="col">DNI</th>
 
-              <th scope="col" class="movie--list__edit-column">Editar</th>
-              <th scope="col">Eliminar</th>
+              <th class="cabecera" scope="col" class="movie--list__edit-column">Editar</th>
+              <th class="cabecera" scope="col">Eliminar</th>
 
             </tr>
           </thead>

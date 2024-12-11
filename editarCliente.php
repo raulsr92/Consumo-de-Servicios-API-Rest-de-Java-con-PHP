@@ -22,13 +22,13 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0 navbar-list">
                   <li class="nav-item">
-                    <a class="nav-link " aria-current="page" href="./index.html">Inicio</a>
+                    <a class="nav-link " aria-current="page" href="./index.php">Inicio</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link " aria-current="page" href="">Nosotros</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link " aria-current="page" href="./gestionClientes.html">Clientes</a>
+                    <a class="nav-link " aria-current="page" href="./gestionClientes.php">Clientes</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link " aria-current="page" href="#">Proveedores</a>
