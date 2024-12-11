@@ -1,0 +1,233 @@
+/* ==================================================  ESTILOS GLOBALES */
+
+@import url('https://fonts.googleapis.com/css2?family=Hind+Guntur:wght@300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    font-family: "Poppins", sans-serif !important;
+    font-weight: 500!important;
+    margin: 0;
+    padding: 0;
+  
+}
+
+a{
+    text-decoration: none;
+}
+/* ==================================================  COMPONENTES */
+
+.main--button{
+    background-color: #AB4459;
+    color: white;
+    border: 0;
+    text-transform: uppercase;
+    padding: 9px 24px;
+    transition-property: all;
+    transition-duration: 450ms;
+    transition-timing-function: ease-in;
+    border-radius: 20px;
+    font-weight: 700!important;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    margin: 0!important;
+    justify-content: center;
+}
+
+.main--button:hover{
+    background-color: white;
+    color: #AB4459;
+    box-shadow: 0px 0px 8px 3px #AB4459 ;
+}
+
+.overlay-button{
+    background-color: #AB4459;
+    color: white;
+    border: 0;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: 2px solid white;
+}
+
+.overlay-button:hover{
+    background-color: white;
+    color: #AB4459;
+    border: 2px solid #AB4459;
+
+}
+
+.button-shadow{
+    box-shadow: 0px 0px 8px 3px whitesmoke ;
+}
+
+.icon-button{
+    font-size: 20px;
+}
+
+.main-icons{
+    font-size: 20px;
+    color: #AB4459;
+}
+
+/* ==================================================Navbar*/
+
+
+
+
+header, nav{
+    background-color: #AB4459!important;
+}
+
+.navbar-list li a{
+    color: #F29F58;
+    text-transform: uppercase;
+}
+
+.nav-link:hover{
+    color: whitesmoke;
+}
+
+/* ==================================================  Footer*/
+
+.footer-container {
+    color: white!important;
+    display: flex !important;
+    flex-direction: column;
+    row-gap: 50px;
+    width: 100%;
+    height: auto;
+    padding: 70px 30px 20px 30px !important;
+    background-color: #441752 !important;
+}
+.correo--container, .telef--container {
+    display: flex !important;
+    column-gap: 10px;
+    align-items: center
+}
+
+.text--footer {
+    font-size: 14px !important;
+}
+
+.book--container{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    width: 60%
+}
+
+.text--subcontainer {
+    padding-left: 25px !important;
+}
+
+.icon-footer{
+    font-size:30px!important;
+    color: #F29F58;
+}
+
+/*==================================================  Footer icons */
+
+.icon-footer-socialmedia {
+    font-size: 22px !important;
+    color: #F29F58;
+}
+
+.social-media-container {
+    display: flex !important;
+    column-gap: 25px;
+}
+
+.social-media-container > div{
+    width: 40px;
+    height: 40px;
+    background-color:#AB4459;
+    padding:6px 10px;
+    border-radius:50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-media-container > div:hover {
+    background-color: rgba(0, 0, 0,0.1);
+        
+}
+
+
+/* ==================================================  MAIN */
+
+main{
+    padding: 30px 0px 80px 0px;
+    background-image: url(../images/mall.jpg);
+    background-repeat: no-repeat;
+    background-position: center !important;
+    background-size: cover;
+    height: auto;
+}
+
+h1{
+    color:#AB4459;
+    font-weight: 800!important;
+    margin-bottom: 40px;
+    padding: 0px;
+}
+
+.main-title{
+
+    text-shadow: 3px 2px 10px white;
+}
+
+.busqueda-section{
+    display: flex;
+    margin-bottom: 50px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding: 20px 8px;
+    background-color: rgba(242, 159, 88, 0.6);
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px 1px #441752;
+}
+
+.busqueda-section-item{
+    display: flex;
+    margin:0!important;
+    column-gap: 15px;
+}
+
+.main--table{
+    margin-bottom: 40px;
+}
+
+
+/*==================================================  Carrusel de imágenes */
+
+.images-carousel{
+    width: 100vw!important;
+    max-height: 80vh;
+    object-fit: cover;
+    filter: grayscale(0.5);
+}
+
+.main-carusel, .main-carusel section{
+    padding: 0!important;
+}
+
+#carousel{
+    position: relative;
+}
+
+#carousel .overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.3);
+    z-index: 1;
+    color: white;
+}
+
+#carousel .overlay .container, #carousel .overlay .container .row{
+    height: 100%;
+}
